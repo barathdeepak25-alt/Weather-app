@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ 
+.full-box{
+ background:linear-gradient(135deg,#0773d1,#03c3cd);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+@media(max-width:480px){
+  .container{
+    padding: 20px;
+  }
+}
+.container{
+  width: 400px;
+  margin: auto;
+  padding: 12px;
+  background-color: #146079;
+  margin-top: 33px;
+  border-radius: 6px;
+  /* border: 1px solid white; */
+}
+.inputs{
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-top: 18px;
+}
+input{
+  width: 70%;
+  padding: 10px;
+  transition: 0.3s;
+  font-size: 20px;
+  border-radius: 11px;
+  outline: none;
+  border: 2px solid #ddd;
+  background-color: rgb(231, 235, 237);
+  box-shadow: 0px 3px 2px rgb(218, 218, 218);
+}
+input:focus{
+  border-color: #4facfe;
+  box-shadow: 0 0 5px rgb(80, 80, 255);
+}
+button{
+  background-color: rgb(6, 123, 169);
+  color: rgb(239, 242, 245);
+  width: 70%;
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  /* box-shadow: 0px 3px 2px ; */
+  font-size: 20px;
+  margin-top: 15px;
+  justify-content: center;
+  margin-left: 15%;
+  cursor: pointer;
+}
+.full-box .app{
+  height: 100vh;
+  margin-left: ;
+
+}
+button:hover{
+  background-color: rgb(3, 85, 152);
+}
+/* .weathers{
+  text-align: center;
+
+} */
+.weathers img{
+  width: 190px;
+  text-align: center;
+  margin-top: -11px;
+}
+.weathers p{
+  color: #7d7575;
+  font-size: 16px;
+  margin-top: 5px;
+  /* font-weight: 600; */
+   
+}
+.error{
+  color: red;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+img{
+  width: 200px;
+  text-align: center;
+  /* height: 90vh; */
+}
+.weather-card{
+  margin-top: 10px;
+   background: #08dae1;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 0 10px 30px rgba(132, 9, 9, 0.2);
+}
+
+.city{
+   padding: 10px;
+  font-size: 20px;
+  border-radius: 11px;
+  border: solid 1px rgb(249, 204, 121);
+  background-color: rgb(226, 226, 244);
+  color: #222;
+  font-size: 30px;
+  margin: 20px;
+}
+.weather-icon{
+  width: 130px;
+  height: 130px;
+  margin: 10px 0;
+}
+p{
+  color: #494747;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.des{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(52, 4, 226);
+}
